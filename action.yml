@@ -1,0 +1,5 @@
+name: "harden-runner-canary demo-action-docker-1"
+description: "harden-runner-canary demo-action-docker-1"
+runs:
+  using: "docker"
+  image: "docker://ghcr.io/harden-runner-canary/demo-action-docker-1:latest"
